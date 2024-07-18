@@ -4,7 +4,7 @@ from flask_mail import Mail, Message
 import json
 
 app = Flask(__name__)
-stripe.api_key = "sk_test_51HMJ15LkC2vPsGwFJOABaLMeVM3Wzvfa9TaHFtWbYwBw2G3mwwV76RN5rnAK3Z29uXwBxn9KyK8pzl1cYIGnxM1E00NlJJCFmT"
+stripe.api_key = "sNlJJCFmT"
 
 # Configure Flask-Mail with Gmail SMTP server using TLS
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
